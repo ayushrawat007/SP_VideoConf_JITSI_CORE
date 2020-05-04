@@ -1,0 +1,21 @@
+.main-window{
+    margin-top: 20px;
+    height: 80vh;
+    /* width: 80vw; */
+
+    /* width: 320px; */
+    display: flex;
+    background-color:grey;
+    
+}
+
+.buttons{
+    background-color: rgb(92, 88, 82);
+    width: 100%;
+    display: grid;
+    grid-template-columns: 10% 10% auto 2% auto 20%;
+    grid-template-rows: 50px;
+    grid-gap: 3px;
+    /* display: flowroot; */
+    position:absolute;
+  } 
